@@ -1,7 +1,6 @@
 #! /bin/bash
-cd models
-cd research
+APP_PATH=`pwd`
+cd models/research
 export PYTHONPATH=${PWD}
-cd ..
-cd ..
+cd APP_PATH
 python final_app.py
